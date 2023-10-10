@@ -19,11 +19,17 @@ and blend them together so the output image looks like the content image, but �
 **Procedure** 
 VGG19 network is used for Neural Style transfer. VGG-19 is a convolutional neural network that is trained on more than a million images from the ImageNet database. The network is 19 layers deep and trained on millions of images. 
 <img width="528" alt="415eefce2de29543991446cabc1adc08" src="https://github.com/ImTushar2605/NST-Project-/assets/132780116/fa34744d-bee8-4c21-890a-169572511e49">
-Firstly we defined two functions
-**(i) : Content Loss** :
-        ![Uploading quicklatex.com-0eb42b529c2bf73ca5756760e07c3c0e_l3.svg…]()
- # (ii): Style Loss      
-                ![quicklatex com-526dc5d6e78d9557eedbdeed3d9e67dd_l3](https://github.com/ImTushar2605/NST-Project-/assets/132780116/b6d6c458-0626-4e5a-b85d-d9c0ebf1c610)
+
+# Define the Loss
+The net loss for style transfer is defined as :  
+![loss function](https://github.com/ImTushar2605/NST-Project-/assets/132780116/237b8d4d-701b-4399-9b91-8a144a37422e)
+ Lₜₒₜₐₗ is the total loss, L 𝒸ₒₙₜₑₙₜ is the content loss of all the intermediate layers and Lₛₜᵧₗₑ is the style loss of all the intermediate layers. Here, α and β are the weighting coefficients of the content and the style loss, respectively
+# Content Loss
+Calculating content loss means how similar is the randomly generated noisy image(G) to the content image(C).In order to calculate content loss :
+               ![content loss](https://github.com/ImTushar2605/NST-Project-/assets/132780116/e5fb0b22-ed3f-4591-be72-646847510da1)
+# Style Loss 
+It is the function of style reference image and genrated image . It mesures how similar is style of  the genrated image to the style of style image. 
+  
                     
                                    
 
