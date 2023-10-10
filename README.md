@@ -15,4 +15,5 @@ Building a Deep Learning model that inputs two images - content and style, and o
  a content image and a style reference image (such as an artwork by a famous painter)—
 and blend them together so the output image looks like the content image, but “painted” in the style of the style reference image.
 
- ![download](https://github.com/ImTushar2605/NST-Project-/assets/132780116/f1510add-1ff5-4370-b4b5-79197848ae8b)
+![styletransferexample](https://github.com/ImTushar2605/NST-Project-/assets/132780116/1f0e51b4-7f86-417f-8bf0-a807b194509b)
+
