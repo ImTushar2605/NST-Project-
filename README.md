@@ -31,6 +31,7 @@ Calculating content loss means how similar is the randomly generated noisy image
 It is the function of style reference image and genrated image . It mesures how similar is style of  the genrated image to the style of style image. 
 
 # Results 
+![image](https://github.com/ImTushar2605/NST-Project-/assets/132780116/4cb32c3f-2345-49e3-b5f5-8c52c347adba)
 
   
                     
